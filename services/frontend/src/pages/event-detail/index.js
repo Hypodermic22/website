@@ -30,7 +30,7 @@ class EventDetail extends Component {
     return (
       <Template>
       <div style={styles.backgroundShit}>
-      	<div align='center' >
+      	 {/* <div align='center' >
 			<Paper elevation={5} style={styles.titleText}>
 				<Typography component="h1" variant="capiton" style={styles.titleText.typography} >
 				U izvedbi Tilda Centra dogadja se najnoviji Python Serbia Conference<br />
@@ -47,7 +47,7 @@ class EventDetail extends Component {
 				</Typography>
 				</CardContent>
 			</Card>
-		</div>
+		</div> */}
    
    <div align= 'center'>   
     <Card style={styles.cardStuff} >
@@ -63,7 +63,7 @@ class EventDetail extends Component {
         </Typography>
         <Typography component="p">
           <br />
-          {'"ovde mozda mapa?"'}
+          "ovde mozda mapa?"
         </Typography>
       </CardContent>
 		<CardActions>

@@ -4,7 +4,7 @@ export default {
 		display: 'flex',
 		flexDirection: 'column',
 		wordWrap: 'break-word',
-		overflow: 'hidden',
+		overflow: 'auto',
 		background: 'rgba(119, 136, 153, 0.65)',
 		justifyContent: 'center',
 		alignItems: 'center',
@@ -26,8 +26,10 @@ export default {
 	backgroundShit: {
 		background: 'rgba(3, 0, 47, 1)',
 		backgroundImage: 'url(https://pyser.org/static/media/pyser-logo.6b36a54e.svg)',
-		backgroundPosition: 'center top',
+		backgroundPosition: 'center center',
+		backgroundSize: '50%',
 		backgroundRepeat: 'no-repeat',
+		overflow: 'auto',
 		},
 
 }
